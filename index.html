@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Kayla and Kevin Say I Do</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.1.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic|Amatic+SC' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="banner">
+		<div class="container">
+			<div class="banner-navigation">
+					<div class="logo">
+						<a href="index.html"><h1><span>Kayla </span>&<span> Kevin</span></h1></a>
+					</div>
+					<span class="menu"></span>
+						<div class="top-menu">
+								<ul class="nav">
+									<li class="hvr-sweep-to-bottom cap"><a href="index.html">Home</a></li>
+									<li class="hvr-sweep-to-bottom"><a href="party.html">Wedding Party</a></li>
+									<li class="hvr-sweep-to-bottom"><a href="details.html">Wedding Details</a></li>
+									<li class="hvr-sweep-to-bottom"><a href="registry.html">Registry</a></li>
+								</ul>
+								<div class="clearfix"></div>
+						</div>
+					<!--script-for-menu-->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+					<!--script-for-menu-->
+
+				<div class="clearfix"></div>
+			</div>
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider4">
+							<li>
+								<div class="banner-info">
+
+									<h3><lable>July</lable> 16TH <lable>2016</lable></h3>
+								</div>
+							</li>
+						 </ul>
+					</div>
+		</div>
+	</div>
+	<!--/welcome-->
+	<div class="welcome-section">
+		<div class="container">
+		   <h2>Our Story</h2>
+		   <p>Despite going to the same high school and graduating just two years apart, we never knew each other until many years later. Both of us were working for the San Diego Padres when a mutual friend told Kayla that someone she knew, Kevin, had just been hired for the Padres and Kayla should introduce herself.</p>
+       <p>Kayla and Kevin happened to have the same shift, in the same box office, the very next shift. (If you know how many boxes offices, ticket windows, and ticket sellers there are at a major league baseball stadium, you know how unlikely this was) Kayla approached Kevin and explained how they have a mutual friend who thought we should meet. We ended up working right next to each other and talking about everything. It was clear there was an immediate connection. We discovered we were both enrolled in the teaching credential program at San Diego State and shared many other interests as well. We began dating in August 2013 and our relationship quickly progressed.</p>
+				<div class="clearfix"></div>
+		</div>
+	</div>
+  <div class="bottom-section">
+    <div class="container">
+    </div>
+  </div>
+	<div class="welcome-section">
+		<div class="container">
+       <h2>The proposal</h2>
+		   <p>On February 15, 2015 Kevin told Kayla they would be meeting some friends for dinner in Coronado. Surprisingly, the friends had an issue they needed to tend to right away, so dinner would be delayed. Since we had just arrived in Coronado, Kevin thought it would be a good idea to walk along the beach.  As we were walking, we were coming upon the Hotel Del where there was a beautiful display of tiki torches, rose petals and lit candles. Kevin grabbed Kayla’s hand and walked her over to the set-up. He began to give a sweet speech professing his love for Kayla, then got down on one knee and asked her to marry him. Kayla said yes and the two of us began planning the rest of our lives together.</p>
+      <div class="clearfix"></div>
+		</div>
+	</div>
+<!--/bottom-section-->
+
+<!--footer-->
+	<div class="footer">
+		  <div class="container">
+			</div>
+			<div class="clearfix"></div>
+		 </div>
+	 </div>
+			<!--start-smoth-scrolling-->
+			<script type="text/javascript">
+								jQuery(document).ready(function($) {
+									$(".scroll").click(function(event){
+										event.preventDefault();
+										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+									});
+								});
+								</script>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

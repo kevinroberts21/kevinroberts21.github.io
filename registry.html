@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Kayla and Kevin Say I Do - Registry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.1.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic|Amatic+SC' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="banner four">
+		<div class="container">
+			<div class="banner-navigation">
+					<div class="logo">
+						<a href="index.html"><h1><span>Kayla </span>&<span> Kevin</span></h1></a>
+					</div>
+					<span class="menu"></span>
+						<div class="top-menu">
+								<ul class="nav">
+									<li class="hvr-sweep-to-bottom"><a href="index.html">Home</a></li>
+									<li class="hvr-sweep-to-bottom"><a href="party.html">Wedding Party</a></li>
+									<li class="hvr-sweep-to-bottom"><a href="details.html">Wedding Details</a></li>
+									<li class="hvr-sweep-to-bottom cap"><a href="registry.html">Registry</a></li>
+								</ul>
+								<div class="clearfix"></div>
+						</div>
+					<!--script-for-menu-->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+					<!--script-for-menu-->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<!--moments-starts-->
+	<div class="moments">
+		<div class="container">
+				<h3>Registry</h3></br>
+			<p>We have registered at Macy’s and Sur La Table. Our registries can be found online at:</p></br>
+
+<p>Macys:
+
+<a href="http://www1.macys.com/registry/wedding/guest/?registryId=2282530">www1.macys.com/registry/wedding/guest/?registryId=2282530</a>
+</p></br>
+
+
+<p>Sur La Table:
+
+<a href="https://www.surlatable.com/registry/viewGiftRegistry.jsp?giftlistId=2001409208915">www.surlatable.com/registry/viewGiftRegistry.jsp?giftlistId=2001409208915</a>
+</p>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--moments-->
+
+	<div class="footer">
+		  <div class="container">
+
+			<div class="clearfix"></div>
+		 </div>
+	 </div>
+			<!--start-smoth-scrolling-->
+			<script type="text/javascript">
+								jQuery(document).ready(function($) {
+									$(".scroll").click(function(event){
+										event.preventDefault();
+										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+									});
+								});
+								</script>
+							<!--start-smoth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
